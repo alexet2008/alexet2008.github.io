@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tu Nombre">
+    <meta name="description" content="Cuestionario para formar parte del club Amigos de la informática">
+    <meta name="keywords" content="club, informática, formulario, inscripción">
+    <title>Club Amigos de la Informática</title>
+</head>
+<body>
+    <header>
+        <!-- Enlace para volver según la rúbrica -->
+        <a href="../index.html">Volver al inicio</a>
+    </header>
+   
+    <nav>
+        <!-- Navegación principal -->
+    </nav>
+
+    <main>
+        <h2 style="text-align: center; font-style: italic;">
+            Rellena el siguiente cuestionario para formar parte del club de<br>
+            "Amigos de la informática"
+        </h2>
+
+        <form action="#" method="POST">
+            <!-- Datos personales -->
+            <fieldset>
+                <legend style="text-align: right; font-style: italic;">Datos personales</legend>
+               
+                <div style="margin-bottom: 5px;">
+                    <label for="nombre" style="display: inline-block; width: 150px; font-weight: bold; text-align: right;">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" style="width: 300px;">
+                </div>
+               
+                <div style="margin-bottom: 5px;">
+                    <label for="domicilio" style="display: inline-block; width: 150px; font-weight: bold; text-align: right;">Domicilio:</label>
+                    <input type="text" id="domicilio" name="domicilio" placeholder="<calle, numero y localidad>" style="width: 300px;">
+                </div>
+               
+                <div style="margin-bottom: 5px;">
+                    <label for="pais" style="display: inline-block; width: 150px; font-weight: bold; text-align: right;">País de origen:</label>
+                    <select id="pais" name="pais">
+                        <option value="espana" selected>España</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+               
+                <div style="margin-bottom: 5px;">
+                    <label for="fecha_nac" style="display: inline-block; width: 150px; font-weight: bold; text-align: right;">Fecha de nacimiento:</label>
+                    <input type="text" id="fecha_nac" name="fecha_nac" placeholder="dd / mm / aaaa">
+                </div>
+               
+                <div style="margin-bottom: 5px;">
+                    <label for="correo" style="display: inline-block; width: 150px; font-weight: bold; text-align: right;">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" style="width: 200px;">
+                </div>
+               
+                <div style="margin-bottom: 10px;">
+                    <label for="telefono" style="display: inline-block; width: 150px; font-weight: bold; text-align: right;">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+               
+                <div style="margin-bottom: 5px;">
+                    <span style="display: inline-block; width: 150px; font-weight: bold; text-align: right;">Estado civil:</span>
+                    <input type="radio" id="soltero" name="estado_civil" value="soltero"> <la

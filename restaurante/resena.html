@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alejandro">
+    <meta name="description" content="Formulario de resena de platos del restaurante">
+    <meta name="keywords" content="reseña, restaurante, opinion, platos">
+    <title>Resena de Plato - Restaurante</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Volver al menu principal del restaurante</a>
+    </header>
+   
+    <nav>
+        <!-- Aqui iria la navegación principal -->
+    </nav>
+
+    <main>
+        <h2>Escribe tu reseña</h2>
+        <form action="#" method="POST">
+            <div>
+                <label for="plato">Plato a reseñar:</label>
+                <select id="plato" name="plato" required>
+                    <option value="" disabled selected>Seleccione un plato...</option>
+                    <option value="plato1">Plato 1: Gazpacho Andaluz </option>
+                    <option value="plato2">Plato 2: Pescaito Frito </option>
+                    <option value="plato3">Plato 3: Carrillada  de cerdo al oloroso de Jerez</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="nombre_resena">Tu nombre:</label>
+                <input type="text" id="nombre_resena" name="nombre_resena" required>
+            </div>
+
+            <div>
+                <label for="texto_resena">Resena del plato:</label>
+                <textarea id="texto_resena" name="texto_resena" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">ENVIAR RESENA</button>
+        </form>
+    </main>
+
+    <footer>
+        <p> 2026 Patio Andaluz</p>
+    </footer>
+</body>
+</html>
+
